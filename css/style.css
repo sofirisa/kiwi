@@ -1,0 +1,165 @@
+header{
+	padding-bottom: 15px;
+}
+
+body{
+	font-family: "Futura Std Bold", "Futura Std Book", "Futura Std Light", "Futura Std Medium";
+color: #1F1F1F;
+}
+
+#bienvenida{
+	padding: 90px;
+	color: black;
+	align-content: center;
+	background-color: #FFFFFF;
+
+}
+
+#menu{
+	width: 40px;
+}
+
+#primera seccion h2{
+	text-align: center;
+	color: #B4CD07;
+	margin-top: 100px;
+	font-family: 'Futura Std Medium';
+	font-size: 50px;
+	
+}
+#bienvenida p{
+	text-align: center;
+	margin-top: 20px;
+
+}
+
+#articulos{
+	padding-bottom: 30px;
+}
+
+#articulos h2{
+	text-align: center;
+	color: #B4CD07;
+	margin-top: 70px;
+	margin-bottom: 0px;
+	font-family:"Futura Std Medium";
+	 
+}
+
+
+#articulos p{
+	color: #848484;
+	text-align: left;
+	font-weight: 100%;
+	font-size: 15px;
+	
+	
+}
+#articulos h3{
+	font-size: 25px;
+	text-align: left;
+	color: #B4CD07;
+	font-family: "Futura Std Medium";
+}
+#articulos h5{
+	text-align: center;
+	margin-bottom: 70px;
+	margin-top: 20px;
+}
+
+#articulos2{
+	padding-bottom: 30px;
+}
+
+#articulos2 h2{
+	text-align: center;
+	color: #B4CD07;
+	margin-top: 70px;
+	margin-bottom: 0px;
+	font-family:"Futura Std Medium";
+	 
+}
+
+#articulos2 p{
+	color: #848484;
+	text-align: left;
+	font-weight: 100%;
+	font-size: 15px;
+	
+	
+}
+#articulos2 h3{
+	font-size: 25px;
+	text-align: left;
+	color: #B4CD07;
+	font-family: "Futura Std Medium";
+}
+#articulos2 h5{
+	text-align: center;
+	margin-bottom: 70px;
+	margin-top: 20px;
+}
+
+#titulo1{
+	font-size: 14px;
+	color: #5ca9aa;
+	font-family:"Futura Std ExtraBold";
+}
+#titulo2{
+	font-size: 14px;
+	color: #6fb632;
+	font-family:"Futura Std ExtraBold";
+}
+#foot{
+	
+	color-background: #6fb632;
+	
+}
+#titulo3{
+	font-size: 14px;
+	color: #616161;
+	font-family:"Futura Std ExtraBold";
+}
+#titulo4{
+	font-size: 14px;
+	color: #5ca9aa;
+	font-family:"Futura Std ExtraBold";
+}
+#titulo5{
+	font-size: 14px;
+	color: #6fb632;
+	font-family:"Futura Std ExtraBold";
+}
+#titulo6{
+	font-size: 14px;
+	color: #616161;
+	font-family:"Futura Std ExtraBold";
+}
+#logo{
+	text-align: left;
+	margin-right: 830px;
+	
+}
+.search{
+	background-color: #B4CD07;
+	padding-top: 10px;
+	padding-left: 15px;
+}	
+
+
+.foto{
+	background-color:#B5CD07;
+	padding-top: 30px;
+	padding-left: 15px;
+
+}
+footer{
+	padding: 40px;
+	background: #afcb1f;
+	color: aliceblue;
+	text-align: right;
+
+}
+footer p{
+	text-align: center;
+}
