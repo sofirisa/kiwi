@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz");
+
+#about{
+	color: #B4CD07;
+	padding: 40px 0px;
+	font-weight: bold;
+}
+
+#mission{
+	padding: 60px;
+	padding-top: 60px;
+	
+}
+
+#mission h3{
+	color: #B4CD07;
+text-transform: uppercase;
+	font-weight: bold;
+}
+
+#values{
+	padding: 60px;
+	
+}
+
+#values h3{
+	color: #B4CD07;
+text-transform: uppercase;
+	font-weight: bold;
+}
+
+footer{
+	padding: 20px;
+	background: #afcb1f;
+	color: aliceblue;
+	text-align: right;
+
+}
+footer p{
+	text-align: center;
+}

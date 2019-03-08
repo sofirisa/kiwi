@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz");
-
 header{
 	padding-bottom: 15px;
 }
@@ -9,31 +8,30 @@ body{
 color: #1F1F1F;
 }
 
-#bienvenida{
-	padding: 90px;
-	color: black;
-	align-content: center;
-	background-color: #FFFFFF;
-
+#articulos{
+	padding-top: 40px;
 }
 
 #menu{
 	width: 40px;
 }
 
-#primera seccion h2{
-	text-align: center;
-	color: #B4CD07;
-	margin-top: 100px;
-	font-family: 'Futura Std Medium';
-	font-size: 50px;
-	
+#primer-articulo{
+	background-color:#5ca9aa;
 }
-#bienvenida p{
-	text-align: center;
-	margin-top: 20px;
+
+footer{
+	padding: 20px;
+	background: #afcb1f;
+	color: aliceblue;
+	text-align: right;
 
 }
+footer p{
+	text-align: center;
+}
+	
+
 
 #articulos{
 	padding-bottom: 30px;
@@ -45,6 +43,7 @@ color: #1F1F1F;
 	margin-top: 70px;
 	margin-bottom: 0px;
 	
+	 
 }
 
 
@@ -60,7 +59,7 @@ color: #1F1F1F;
 	font-size: 25px;
 	text-align: left;
 	color: #B4CD07;
-
+	
 }
 #articulos h5{
 	text-align: center;
@@ -77,7 +76,7 @@ color: #1F1F1F;
 	color: #B4CD07;
 	margin-top: 70px;
 	margin-bottom: 0px;
-	
+
 	 
 }
 
@@ -147,20 +146,23 @@ color: #1F1F1F;
 	padding-left: 15px;
 }	
 
-
-.foto{
-	background-color:#B5CD07;
-	padding-top: 30px;
-	padding-left: 15px;
-
+#primer-articulo h5{
+	padding-top: 10px;
+ color: #fff;
 }
-footer{
-	padding: 40px;
-	background: #afcb1f;
-	color: aliceblue;
-	text-align: right;
 
+#primer-articulo h1{
+	color: #fff;
 }
-footer p{
-	text-align: center;
+
+#primer-articulo{
+	margin-bottom: 30px;
+	
+}
+
+.titulo{
+	color: #5ca9aa;
+	font-weight: bold;
+	margin: 20px;
+	margin-bottom: 40px;
 }

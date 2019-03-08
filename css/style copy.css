@@ -1,0 +1,53 @@
+header{
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+
+body{
+	font-family: "Futura Std Bold", "Futura Std Book", "Futura Std Light", "Futura Std Medium";
+color: #1F1F1F;
+}
+
+#bienvenida{
+	padding: 100px, 0;
+	color: black;
+	align-content: center;
+	background-color: #B4CD07
+	
+}
+
+#bienvenida h3{
+	text-align: center;
+	color: black;
+	
+}
+
+#articulos h2{
+	text-align: center;
+	color: #B4CD07;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+#articulos p{
+	color: #848484;
+	text-align: center;
+	font-weight: 100%;
+	font-size: 20px;
+}
+
+#articulos img{
+	align-content: center;
+}
+
+#logo{
+	margin-left: 30px;
+}
+
+#search{
+	margin-left: 1400px;
+}
+
+#menu{
+	margin-left: 20px;
+}
