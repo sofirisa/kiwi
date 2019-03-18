@@ -4,37 +4,77 @@
 <meta charset="UTF-8">
 <title>Beauty</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/stylecltr.css" rel="stylesheet"> 
+	<link href="css/stylecltr.css" rel="stylesheet">
+	<link href="css/simple-sidebar.css" rel="stylesheet">
 	<link href="css/bootstrap-custom.css" rel="stylesheet">
 	<link href="css/owl.carousel.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<style type="text/css">
+	body,td,th {
+    font-family: Quicksand, sans-serif;
+}
+a:link {
+    color: #B4CD07;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+a:hover {
+    text-decoration: underline;
+    color: #B4CD07;
+}
+a:active {
+    text-decoration: none;
+    color: #000000;
+}
+    </style>
 </head>
 
 <body>
+	
+	<div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading"> </div>
+      <div class="list-group list-group-flush">
+		<a href="index.html" class="list-group-item list-group-item-action bg-light">HOME</a> 
+        <a href="about.html" class="list-group-item list-group-item-action bg-light">ABOUT US</a>
+        <a href="living.html" class="list-group-item list-group-item-action bg-light">LIVING</a>
+        <a href="beauty.html" class="list-group-item list-group-item-action bg-light">BEAUTY</a>
+        <a href="culture.html" class="list-group-item list-group-item-action bg-light">CULTURE</a>
+     
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <button class="btn btn-primary" id="menu-toggle"><img src="img/menu.png" width="40px" alt="menu"></button>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+		  
+		  <div class="collapse navbar-collapse" id="navbarSupportContent">
+		  <ul class="navbar-nav ml-auto mt-2 mt-lg-0"></ul>
+		  </div>
+
+      </nav>
 	<header id="beautyheader">
 		<div class="container">
-		<div class="row">
 			
-		<article id="menu" class="col-md-10 col-sm-6 col-xs-12 beautymenu">
-		 <img src="img/menu.png" alt="menu" class="img-fluid" width="40px">
+			<a href="index.html"><img src="img/logokiwi.png" alt="logo" width="100px" id="logo"></a>
+			<h1 class="text-center beauty titulo">BEAUTY</h1>
 			
-		<img src="img/logokiwi.png" alt="logo" class="img-fluid" width="100px">
-			
-
-		</article>
-			
-			
-			
-			<article  id="search" class="col-md-2 col-sm-6 col-xs-12">
-			<img src="img/search.png" alt="logo"  class="img-fluid" width="30px">
-			
-			</article>
-			
-		</div>
 		</div>
 	</header>
 	
-	<h1 class="text-center beauty titulo">BEAUTY</h1>
+	
 	
 		
 	<section id="primersection">
@@ -72,7 +112,7 @@
 				</article>
 				
 			<article class="col-md-6 col-sm-6 col-xs-12">
-				<h5>Bronzer Season</h5>
+				<h5>Bronzer Season</h5> 
 					<h1>#TheLIST: Bronzers for Every Skin Tone</h1>
 				<p>The art of bronzing can be tricky to master, but technique is only half the battle— you also have to find the right shade. To help us in our never-ending search for natural-looking sun-kissed skin, we asked celebrity makeup artists Brigitte Reiss-Andersen and Patrick Ta how to find the best bronzer for every skin tone. </p>
 				</article>
@@ -92,38 +132,38 @@
 		<div class="row">
 		<article class="col-md-4 col-sm-6 col-xs-6">
 			<h5 class="paddingh5">Megan Cornell</h5>
-			<h3>Lilac Hair</h3>
+			<a href="https://www.cosmopolitan.com/uk/beauty-hair/beauty-trends/g25470409/beauty-trends-2019/" target="_blank"><h3>Lilac Hair</h3></a>
 			<p>2016 was all about smokey lilac hair, but for 2019 we will see a return to straight up lilac dye. With Pinterest searches up +1077%, it's time to book that hairdresser appointment to get involved with the biggest beauty trend of 2019, or just leave your purple shampoo on that little bit longer...</p>
 			<img src="img/f528863a94f7b32a3f93ce2696db1d38.jpg" class="img-fluid" height="350px" alt="hair">
 			<br>
 			<h5 class="paddingh5">Emma Summers</h5>
-			<h3>Powdered Nails</h3>
+			<a href="https://www.cosmopolitan.com/uk/beauty-hair/beauty-trends/g25470409/beauty-trends-2019/" target="_blank"><h3>Powdered Nails</h3></a>
 			<p>If you haven't managed to kick your gel nail addiction, prepare to become obsessed with powder dipping, or SNS as it's otherwise known. By using powder instead of gel, your manicure will last as long as a month, without any of the damage of gel nails. </p>
-			<img src="img/nails.png"  alt="nails" class="img-fluid" height="350px">
+			<img src="img/nails.png"  alt="nails" class="img-fluid" width="800px">
 			
 			
 		</article>
 			
 		<article class="col-md-4 col-sm-6 col-xs-6">
 			<h5 class="paddingh5">Lesley</h5>
-			<h3>Natural Lash Lift</h3>
+			<a href="https://www.cosmopolitan.com/uk/beauty-hair/beauty-trends/g25470409/beauty-trends-2019/" target="_blank"><h3>Natural Lash Lift</h3></a>
 			<p>If you've ever had a lash lift, you will know how it can turn your lashes from zero to hero, in an hour and 45 minutes. But if you don't have the time, or more importantly the money, you're not alone. Searches for 'natural lash lifts' including hacks like grapeseed oil and aloe vera are up +52%.</p>
-			<img src="img/d42dc6045acedbf75be3a6c293c84586.jpg" alt="brows" class="img-fluid" height="350px">
+			<img src="img/d42dc6045acedbf75be3a6c293c84586.jpg" alt="brows" class="img-fluid" width="800px">
 			<br>
 			<h5 class="paddingh5">Alice Clayden</h5>
-			<h3>Cropped Bangs</h3>
-			<p>When it comes to fringes, we're all commitment phobes, but it's time to get serious in 2019. Searches for 'cropped bangs' are up +51%, so it's time to channel your inner Bella Hadid and get those long wanted baby bangs.</p>
-			<img src="img/bangs.png" alt="bangs" class="img-fluid" height="350px">
+			<a href="https://www.cosmopolitan.com/uk/beauty-hair/beauty-trends/g25470409/beauty-trends-2019/" target="_blank"><h3>Cropped Bangs</h3></a>
+			<p>When it comes to fringes, we're all commitment phobes, but it's time to get serious in 2019. Searches for 'cropped bangs' are up +51%, so it's time to channel your inner Bella Hadid o Kendall Jenner and get those long wanted baby bangs or jagged ones.</p>
+			<img src="img/bangs.png" alt="bangs" class="img-fluid" width="800px">
 		</article>
 			
 		<article class="col-md-4 col-sm-6 col-xs-6">
 			<h5 class="paddingh5">Lana Lane</h5>
-			<h3>Glossy Makeup</h3>
+			<a href="https://www.cosmopolitan.com/uk/beauty-hair/beauty-trends/g25470409/beauty-trends-2019/" target="_blank"><h3>Glossy Makeup</h3></a>
 			<p>Matte addicts look away now, because gloss is back and it's more sticky than ever. Not only will we be ditching our matte liquid lipsticks for lip gloss, but we'll also be extending the shininess to our skin, eyelids and wherever else we want our hair to get stuck. With searches for 'glossy makeup' up +89%.</p>
 			<img src="img/skin.png" alt="skin" class="img-fluid" height="350px">
 			<br>
 			<h5 class="paddingh5">Talonted Lex</h5>
-			<h3>Bold Lips</h3>
+			<a href="https://www.cosmopolitan.com/uk/beauty-hair/beauty-trends/g25470409/beauty-trends-2019/" target="_blank"><h3>Bold Lips</h3></a>
 			<p>Thanks to Glossier, 2018 saw the minimal makeup movement seriously challenge the heavy Instagram look. For 2019 prepare to compromise and pair your barely there base with a bold lip, as 'standout lip colour' searches increased by +467%.</p>
 			<img src="img/lips.jpg" alt="lips" class="img-fluid" height="350px">
 		</article>
@@ -134,21 +174,27 @@
 	<br>
 	<br>
 	<br>
-		<footer>
-		<i class="fab fa-facebook-square fa-2x" ></i>
-		<i class="fab fa-twitter-square fa-2x"></i>
-		<i class="fab fa-instagram fa-2x"></i>
-		<i class="fab fa-youtube-square fa-2x"></i>
+	
+	<footer>
+		<a href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-2x" ></i></a>
+		<a href="https://www.twitter.com/"><i class="fab fa-twitter-square fa-2x"></i></a>
+		<a href="https://www.instagram.com/"><i class="fab fa-instagram fa-2x"></i></a>
+		<a href="https://www.youtube.com/"><i class="fab fa-youtube-square fa-2x"></i></a>
 		<p> Copyright &copy; 2018
 		</p>
 		
-
+		
 	</footer>
+		
+	</div><!-- cierre page-content-wrapper-->
+	
+	
+		
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
-	
-			<script>
+		
+					<script>
 
 $(function(){
 
@@ -201,7 +247,14 @@ $(".app-carousel").owlCarousel({
 });
 
 </script>
-	
+		
+	<script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+		
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135373884-1"></script>
 <script>
@@ -211,5 +264,14 @@ $(".app-carousel").owlCarousel({
 
   gtag('config', 'UA-135373884-1');
 </script>
+	
+
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135373884-1"></script>
+
+		
+		</div>
+	
 </body>
 </html>

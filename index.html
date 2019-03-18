@@ -1,63 +1,94 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="UTF-8">
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
 <title>Kiwi</title>
+	<meta name="latest news and trends" content="news and trends daily">
+<meta property="og:title" content="Disney Movies" />
+<meta property="og:type" content="news articles" />
+<meta property="og:url" content="https://www.buzzfeed.com/ishabassi/problematic-disney-movie-moments" />
+<meta property="og:image" content="https://img.buzzfeed.com/buzzfeed-static/static/2019-02/19/23/asset/buzzfeed-prod-web-01/sub-buzz-14411-1550637198-2.jpg?downsize=800:*&output-format=auto&output-quality=auto" />
 	
 	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/animate.css">
 	<link href="css/style.css" rel="stylesheet"> 
 	<link href="css/bootstrap-custom.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+	<link href="css/simple-sidebar.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	
+	<style type="text/css">
+	body,td,th {
+    font-family: Quicksand, sans-serif;
+}
+a:link {
+    color: #B4CD07;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+a:hover {
+    text-decoration: underline;
+    color: #B4CD07;
+}
+a:active {
+    text-decoration: none;
+    color: #000000;
+}
+    </style>
+	
 </head>
+	
 <body>
 	
-	<header>
-		<div class="container">
-			
-			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="index.html">
-			  <img src="img/menu.png" alt="menu" class="img-fluid" width="40px" id="menu">
-			 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">ABOUT US</a>
-          <a class="dropdown-item" href="#">LIVING</a>
-          <a class="dropdown-item" href="#">BEAUTY</a>
-		  <a class="dropdown-item" href="#">CULTURE</a>
-	  </div>
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+	<div class="d-flex" id="wrapper">
 
-  <div class="collapse navbar-collapse" id="navbar">
-    <ul class="navbar-nav mx-auto">
-      <li class="nav-item active">
-		
-		  
-        <a class="nav-link" href="#"><img src="img/logokiwi.png" alt="logo kiwi" width="100px" id="logo"> </a>
-			  
-		  
-      </li>
-		<li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      
-        </a>
-        
-      </li>
-
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading"> </div>
+      <div class="list-group list-group-flush">
+		<a href="index.html" class="list-group-item list-group-item-action bg-light">HOME</a> 
+        <a href="about.html" class="list-group-item list-group-item-action bg-light">ABOUT US</a>
+        <a href="living.html" class="list-group-item list-group-item-action bg-light">LIVING</a>
+        <a href="beauty.html" class="list-group-item list-group-item-action bg-light">BEAUTY</a>
+        <a href="culture.html" class="list-group-item list-group-item-action bg-light">CULTURE</a>
      
-    </ul>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
 
-  </div>
-</nav>
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <button class="btn btn-primary" id="menu-toggle"><img src="img/menu.png" width="40px" alt="menu"></button>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+		  
+		  <div class="collapse navbar-collapse" id="navbarSupportContent">
+		  <ul class="navbar-nav ml-auto mt-2 mt-lg-0"></ul>
+		  </div>
+
+      </nav>
+   
+	
+	<header>
+		
+		<div class="container">
 			<div class="row">
 			
 		<article id="primera seccion" class="col-md-6 col-sm-6 col-xs-12">
-
+			
+            <a href="index.html"><img src="img/logokiwi.png" alt="logo" width="100px" id="logo"></a>
 			<br> <br> <br> <br> <br> <br>
-				<a href="https://www.buzzfeed.com/ishabassi/problematic-disney-movie-moments" target="_blank"><h2 class="text-center">14 Disney Movie Scenes That Are Problematic As Hell</h2></a>
+			
+				<a href="https://www.buzzfeed.com/ishabassi/problematic-disney-movie-moments" target="_blank"><h2 class="text-center wow bounceInUp">14 Disney Movie Scenes That Are Problematic As Hell</h2></a>
 					<p class="text-center">Recently we asked the Kiwi Community to tell us about the problematic scenes they came across while rewatching Disney movies as an adult. </p>
 
 		</article>
@@ -78,7 +109,7 @@
 	
 	<section id="articulos">
 		
-		<h2>Featured Articles</h2>
+		<h2 class="wow fadeIn">Featured Articles</h2>
 		<h5>the highlights of this week </h5>
 	
 		<div class="container">
@@ -124,8 +155,8 @@
 				</article>
 				
 				<article class="col-md-4 col-sm-6 col-xs-12">
-					<a href="beauty.html" target="_blank"><h4 id="titulo5">BEAUTY</h4>
-					<a href="https://www.popsugar.com/beauty/Food-Nail-Art-Ideas-45821307" target="_blank" ></a> <h3>65+ Food-Inspired Manicures That Look (Almost) Good Enough to Eat</h3></a>
+					<a href="beauty.html" target="_blank"><h4 id="titulo5">BEAUTY</h4></a>
+					<a href="https://www.popsugar.com/beauty/Food-Nail-Art-Ideas-45821307" target="_blank" > <h3>65+ Food-Inspired Manicures That Look (Almost) Good Enough to Eat</h3></a>
 					<p>The latest food-inspired nail trend will make you want to lick your fingers like you're at the bottom of the Cheetos bag with a fresh orange powder manicure.</p>
 					<img src="img/nails.jpg" class="img-fluid" alt="nails"  >
 					
@@ -137,26 +168,45 @@
 					<p>Let your wedding guests sit back and enjoy your special day just as much as you will with the help of these special seating selections.</p>
 					<img src="img/leads.jpg" class="img-fluid" alt="wedding">
 				</article>
-	
 			</div>
-		</div>
+</div>
+			
 	</section>
+		
 
+
+	
 	<footer>
-		<i class="fab fa-facebook-square fa-2x" ></i>
-		<i class="fab fa-twitter-square fa-2x"></i>
-		<i class="fab fa-instagram fa-2x"></i>
-		<i class="fab fa-youtube-square fa-2x"></i>
+		<a href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-2x" ></i></a>
+		<a href="https://www.twitter.com/"><i class="fab fa-twitter-square fa-2x"></i></a>
+		<a href="https://www.instagram.com/"><i class="fab fa-instagram fa-2x"></i></a>
+		<a href="https://www.youtube.com/"><i class="fab fa-youtube-square fa-2x"></i></a>
 		<p> Copyright &copy; 2018
 		</p>
 		
 		
 	</footer>
+		
+	</div><!-- cierre page-content-wrapper-->
 	
 	
+		
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	
+		
+		<script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+              
+		
+	<script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+		
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135373884-1"></script>
 <script>
@@ -167,6 +217,8 @@
   gtag('config', 'UA-135373884-1');
 </script>
 	
+	      
+	</div>
 </body>
 
 </html>

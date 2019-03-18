@@ -2,9 +2,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="latest news and trends" content="news and trends daily">
 <title>About Us</title>
 	<link href="css/styleabt.css" rel="stylesheet">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/simple-sidebar.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
 	
@@ -12,23 +15,74 @@
 
 <body>
 	
+		<style type="text/css">
+	body,td,th {
+    font-family: Quicksand, sans-serif;
+}
+a:link {
+    color: #B4CD07;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+a:hover {
+    text-decoration: underline;
+    color: #B4CD07;
+}
+a:active {
+    text-decoration: none;
+    color: #000000;
+}
+    </style>
+	
+	<div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading"> </div>
+      <div class="list-group list-group-flush">
+		<a href="index.html" class="list-group-item list-group-item-action bg-light">HOME</a> 
+        <a href="about.html" class="list-group-item list-group-item-action bg-light">ABOUT US</a>
+        <a href="living.html" class="list-group-item list-group-item-action bg-light">LIVING</a>
+        <a href="beauty.html" class="list-group-item list-group-item-action bg-light">BEAUTY</a>
+        <a href="culture.html" class="list-group-item list-group-item-action bg-light">CULTURE</a>
+     
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <button class="btn btn-primary" id="menu-toggle"><img src="img/menu.png" width="40px" alt="menu"></button>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+		  
+		  <div class="collapse navbar-collapse" id="navbarSupportContent">
+		  <ul class="navbar-nav ml-auto mt-2 mt-lg-0"></ul>
+		  </div>
+
+      </nav>
+	
+		<header>
 		<header>
 		<div class="container">
-		<div class="row">
 			
-		<article id="menu" class="col-md-6 col-sm-6 col-xs-12">
-		 <img src="img/menu.png" alt="menu" class="img-fluid" width="40px">
+		<a href="index.html"><img src="img/logokiwi.png" alt="logo" width="100px" id="logo"></a>
+		<h1 class="text-center titulo">ABOUT US</h1>
 			
-		<img src="img/logokiwi.png" alt="logo" class="img-fluid" width="100px">
-	
-		</article>
 		</div>
-		</div>
+	</header>
 	</header>
 	
 	<section id="about" class="col-md-12 col-sm-12 col-xs-12 text-center">
 		<div class="container-fluid">
-			<h1> ABOUT US</h1>
+			
 		</div>
 		
 	</section>
@@ -56,6 +110,46 @@
 		<p>We share information that is actually helpful to our readers at any point in their lives. Our content will aim to be inclusive to everyone who searches the internet. We will not tolerate disrespectful comments towards one of our readers.</p>
 			</div>
 	</section>
+		
+				<section id="content">
+		<div class="container">
+			<h1 align="center">Subscribe to our Newsletter</h1>
+			<form method="post" action="">
+				
+				
+				<div class="row">
+				<div class="form-group col-md-6">
+					<label>Name</label>
+					<input type="text" name="name" id="name" class="form-control">					
+					</div>
+					<div class="form-group col-md-6">
+					<label>Age</label>
+					<input type="number" name="age" id="age" class="form-control">					
+					</div>
+				</div>
+				
+				<div class="form-group">
+					<label>E-mail Adress</label>
+					<input type="text" name="mail" id="mail" class="form-control" required>
+				
+				</div>
+				
+				<div class="form-group">
+					<button type="submit" class="btn btn-primary"> Subscribe</button>
+					<button type="reset" class="btn btn-dark"> Cancel </button>
+				</div>
+				
+				
+			</form>
+		</div>
+				
+			<div class="mapouter"><div class="gmap_canvas" ><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=metropolis&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><style>.mapouter{text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style><span style="font-size:12px;">Werbung: <a href="https://www.jetzt-drucken-lassen.de">jetzt-drucken-lassen.de</a></span></div>	
+				
+	
+	</section>
+			
+		
+		
 	
 			<footer>
 		<i class="fab fa-facebook-square fa-2x" ></i>
@@ -65,6 +159,7 @@
 		<p> Copyright &copy; 2018
 		</p>
 		
+				
 
 	</footer>
 	
@@ -81,7 +176,15 @@
 
   gtag('config', 'UA-135373884-1');
 </script>
+		<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-135373884-1');
+</script>
 	
-	
+		</div>
+		</div>
 </body>
 </html>

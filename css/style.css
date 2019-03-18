@@ -1,11 +1,12 @@
-@import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz");
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
 
 header{
 	padding-bottom: 15px;
+	font-family: 'Quicksand', sans-serif;
 }
 
 body{
-	
+	font-family: 'Quicksand', sans-serif;
 color: #1F1F1F;
 }
 
@@ -16,6 +17,8 @@ color: #1F1F1F;
 	background-color: #FFFFFF;
 
 }
+
+
 
 #menu{
 	width: 40px;
@@ -33,6 +36,10 @@ color: #1F1F1F;
 	text-align: center;
 	margin-top: 20px;
 
+}
+
+#content h1{
+	color: #B4CD07;
 }
 
 #articulos{
@@ -95,6 +102,7 @@ color: #1F1F1F;
 	color: #B4CD07;
 	
 }
+
 #articulos2 h5{
 	text-align: center;
 	margin-bottom: 70px;
@@ -104,12 +112,12 @@ color: #1F1F1F;
 #titulo1{
 	font-size: 14px;
 	color: #5ca9aa;
-	font-weight: bold;
+	font-weight: 700;
 }
 #titulo2{
 	font-size: 14px;
 	color: #6fb632;
-	font-weight: bold;
+	font-weight: 700;
 }
 #foot{
 	
@@ -119,26 +127,27 @@ color: #1F1F1F;
 #titulo3{
 	font-size: 14px;
 	color: #616161;
-	font-weight: bold;
+	font-weight: 700;
 }
 #titulo4{
 	font-size: 14px;
 	color: #5ca9aa;
-	font-weight: bold;
+	font-weight: 700;
 }
 #titulo5{
 	font-size: 14px;
 	color: #6fb632;
-	font-weight: bold;
+	font-weight: 700;
 }
 #titulo6{
 	font-size: 14px;
 	color: #616161;
-	font-weight: bold;
+	font-weight: 700;
 }
 #logo{
 	text-align: left;
 	margin-right: 830px;
+	margin-top: 20px;
 	
 }
 .search{
@@ -164,3 +173,13 @@ footer{
 footer p{
 	text-align: center;
 }
+
+i{
+	color: #fff;
+}
+
+#articulos2 h3:hover{
+	text-decoration: underline;
+
+}
+

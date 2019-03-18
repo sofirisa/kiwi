@@ -1,13 +1,19 @@
-@import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz");
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+
 header{
 	padding-bottom: 15px;
+	font-family: 'Quicksand', sans-serif;
 }
 
 body{
-	
-color: #1F1F1F;
+	font-family: 'Quicksand', sans-serif;
+    color: #1F1F1F;
 }
-
+#logo{
+	text-align: left;
+	margin-right: 830px;
+	margin-top: 20px;
+	 }
 #articulos{
 	padding-top: 40px;
 }
@@ -78,6 +84,10 @@ footer p{
 	margin-bottom: 0px;
 
 	 
+}
+
+#primer-articulo img{
+	padding-top: 15px;
 }
 
 #articulos2 p{
@@ -158,6 +168,19 @@ footer p{
 #primer-articulo{
 	margin-bottom: 30px;
 	
+}
+
+i{
+	color: #fff;
+}
+
+.indoors{
+	padding-left: 40px;
+}
+
+.indoors a:hover{
+	text-decoration:underline;
+	color: #fff;
 }
 
 .titulo{

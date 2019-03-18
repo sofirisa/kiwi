@@ -1,4 +1,18 @@
-@import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz");
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+
+header{
+	padding-bottom: 10px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+body{
+	font-family: 'Quicksand', sans-serif;
+}
+#logo{
+	text-align: left;
+	margin-right: 830px;
+	margin-top: 20px;
+	 }
 
 #about{
 	color: #B4CD07;
@@ -38,4 +52,12 @@ footer{
 }
 footer p{
 	text-align: center;
+}
+
+#content h1{
+	color: #afcb1f;
+}
+
+#content{
+	padding-bottom: 60px
 }
